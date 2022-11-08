@@ -33,7 +33,7 @@ public class practisetest {
                 body(jsonData).
                 when().
                 put("/api/users/").
-                then().statusCode(200).header("Content-Type","application/json; charset=utf-8");
+                then().statusCode(200).header("Content-Type","application/json; charset=utf-8").body()
 
 
     }
