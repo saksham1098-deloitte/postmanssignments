@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/saksshukla/IdeaProjects/postmanssignments/MainAssignmentTodolist/src/test/java"><classes><class name="Testing.Tasktest"><methods><include name="taskValidation"/><include name="verifyTaskPagination"/></methods></class><class name="Testing.UserTest"><methods><include name="register"/><include name="login"/><include name="validateUserByTokens"/></methods></class></classes></test></suite>
