@@ -45,16 +45,6 @@ public String token;
     @Test
     public void login() {
 
-        /*File jsonData = new File("C:\\Users\\saksshukla\\IdeaProjects\\postmanssignments\\MainAssignmentTodolist\\src\\test\\java\\Testing\\logindata.json");
-        String token;
-           given().
-                spec(requestSpecification).
-                header("Content-Type","application/json").
-                body(jsonData).
-                when().
-                post("/user/login").
-                then().log().all().
-                statusCode(200);*/
         RestAssured.baseURI="https://api-nodejs-todolist.herokuapp.com";
         RequestSpecification request=RestAssured.given();
         String payload="{\n"+
